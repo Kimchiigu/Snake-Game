@@ -154,9 +154,9 @@ int main(){
 	} while (score < 10);
 	
 	if (checkCollision()) {
-        printf("Game Over! You hit your tail or border :(\n");
-    } else {
-    	printf("CONGRATULATIONS!\n");
+        	printf("Game Over! You hit your tail or border :(\n");
+   	} else {
+    		printf("CONGRATULATIONS!\n");
 		printf("Your Score : %d\n", score-1);
 	}
 	
